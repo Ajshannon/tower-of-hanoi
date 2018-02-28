@@ -1,49 +1,62 @@
-* {
-    border: 1px solid black;
+/* * {
+    border: 1px solid white;
+} */
+header {
+    text-align: center;
+    font-family: fantasy;
+    color: white;
 }
 body {
     margin: 0;
+    background-color: black;
 }
 #main-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
 
 }
 .tower-class {
     display: flex;
     flex-direction: column-reverse;
-    height: 600px;
+    height: 300px;
     width: 100px;
     flex: 1;
     align-items: center;
 }
-#hidden {
+#hidden-div {
     display: block;
     visibility: hidden;
 }
 #disc-1 {
     background-color: blue;
-    width: 100px;
-    height: 100px;
-    border-radius: 6px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
 }
 #disc-2 {
     background-color: purple;
-    width: 200px;
-    height: 100px;
-    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
 }
 #disc-3 {
     background-color: green;
-    width: 300px;
-    height: 100px;
-    border-radius: 6px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
 }
 #disc-4 {
     background-color: red;
-    width: 400px;
-    height: 100px;
-    border-radius: 6px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
 
+}
+.disc-class {
+    /* flex-basis: 1;
+    flex-grow: 0;
+    flex-shrink: auto; */
 }
